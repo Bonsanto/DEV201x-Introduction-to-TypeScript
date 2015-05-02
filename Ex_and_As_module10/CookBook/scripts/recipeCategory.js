@@ -7,13 +7,17 @@ var __extends = this.__extends || function (d, b) {
     __.prototype = b.prototype;
     d.prototype = new __();
 };
-var RecipeCategory = (function (_super) {
-    __extends(RecipeCategory, _super);
-    function RecipeCategory(category) {
-        _super.call(this, category.name, category.foodGroups);
-        this.description = category.description;
-        this.examples = category.examples;
-    }
-    return RecipeCategory;
-})(BaseRecipeCategory);
+var RecipeData;
+(function (RecipeData) {
+    var RecipeCategory = (function (_super) {
+        __extends(RecipeCategory, _super);
+        function RecipeCategory(category) {
+            _super.call(this, category.name, category.foodGroups);
+            this.description = category.description;
+            this.examples = category.examples;
+        }
+        return RecipeCategory;
+    })(RecipeData.BaseRecipeCategory);
+    RecipeData.RecipeCategory = RecipeCategory;
+})(RecipeData || (RecipeData = {}));
 //# sourceMappingURL=recipeCategory.js.map

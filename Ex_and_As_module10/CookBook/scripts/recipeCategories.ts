@@ -1,3 +1,5 @@
-﻿class RecipeCategories <T> {
-    items:T[] = [];
+﻿module RecipeData {
+    export class RecipeCategories <T> {
+        items:T[] = [];
+    }
 }
