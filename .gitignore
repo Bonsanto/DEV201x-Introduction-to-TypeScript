@@ -8,3 +8,9 @@ Ex_and_As_module7&8/.idea/
 Ex_and_As_module9/CookBook/.idea/
 Ex_and_As_module10/.idea/
 Ex_and_As_module9/.idea/
+Ex_and_As_module11/.idea/
+Ex_and_As_module11/node_modules/
+Ex_and_As_module11/CookBook/.idea/CookBook.iml
+*.js
+*.md
+*.json
